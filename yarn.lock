@@ -1618,7 +1618,7 @@ __metadata:
     "@carbon/pictograms-react": "npm:^11.66.0"
     "@hookform/resolvers": "npm:^3.1.1"
     "@openmrs/esm-framework": "npm:next"
-    "@openmrs/esm-patient-common-lib": "npm:next"
+    "@openmrs/esm-patient-common-lib": "npm:^11.3.1-pre.9443"
     "@playwright/test": "npm:^1.30.0"
     "@rspack/cli": "npm:^1.5.5"
     "@rspack/core": "npm:^1.5.5"
@@ -3394,9 +3394,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-patient-common-lib@npm:next":
-  version: 11.3.1-pre.9032
-  resolution: "@openmrs/esm-patient-common-lib@npm:11.3.1-pre.9032"
+"@openmrs/esm-patient-common-lib@npm:^11.3.1-pre.9443":
+  version: 11.3.1-pre.9443
+  resolution: "@openmrs/esm-patient-common-lib@npm:11.3.1-pre.9443"
   dependencies:
     "@carbon/react": "npm:^1.83.0"
     lodash-es: "npm:^4.17.21"
@@ -3405,7 +3405,7 @@ __metadata:
     "@openmrs/esm-framework": 8.x
     react: 18.x
     single-spa: 6.x
-  checksum: 10/cea6607a69d994f4f4413977aaffbaaa1c85c9abfab2f396c19defadb1260dd34d949db67b6c408d5b426812348209f1976de707124ad154c9778ee9dd591908
+  checksum: 10/2f992c59da12743099ce72214cb3cb5692ca258305a59caf10f3e99897a8e830050db2b243c6cd676cd69d7afc9a2cd41fb55cda2a9087d9aff609063ec77dbd
   languageName: node
   linkType: hard
 

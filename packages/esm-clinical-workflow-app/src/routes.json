@@ -8,11 +8,32 @@
     
   ],
   "extensions": [
-   
+   {
+    "name": "triage-dashboard-link",
+    "component": "triageDashboardLink",
+    "slot":"homepage-dashboard-slot",
+    "order":0,
+    "meta":{
+      "name":"triage",
+      "slot":"triage-dashboard-slot",
+      "title":"triage"
+    }
+   },
+   {
+    "name": "triage-dashboard",
+    "component": "triageDashboard",
+    "slot":"triage-dashboard-slot"
+   }
   ],
 
   "workspaces": [
-    
+    {
+      "name": "triage-workspace",
+      "component": "triageWorkspace",
+      "title": "Triage Form",
+      "canMaximize": true,
+      "type": "clinical-form"
+    }
   ],
   "modals": [
     
